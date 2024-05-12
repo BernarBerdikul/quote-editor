@@ -369,14 +369,6 @@
               </RakeTaskImpl>
             </subtasks>
           </RakeTaskImpl>
-          <RakeTaskImpl id="dartsass">
-            <subtasks>
-              <RakeTaskImpl description="Build your Dart Sass CSS" fullCommand="dartsass:build" id="build" />
-              <RakeTaskImpl description="Remove CSS builds" fullCommand="dartsass:clobber" id="clobber" />
-              <RakeTaskImpl description="Install Dart Sass into the app" fullCommand="dartsass:install" id="install" />
-              <RakeTaskImpl description="Watch and build your Dart Sass CSS on file changes" fullCommand="dartsass:watch" id="watch" />
-            </subtasks>
-          </RakeTaskImpl>
           <RakeTaskImpl id="db">
             <subtasks>
               <RakeTaskImpl description="Create the database from DATABASE_URL or config/database.yml for the current RAILS_ENV (use db:create:all to create all databases in the config). Without RAILS_ENV or when RAILS_ENV is development, it defaults to creating the development and test databases, except when DATABASE_URL is present" fullCommand="db:create" id="create" />
