@@ -4,6 +4,7 @@ class QuotesTest < ApplicationSystemTestCase
 
   setup do
     # We need to order quote as well in the system tests
+    login_as users(:accountant)
     @quote = Quote.ordered.first
   end
 
